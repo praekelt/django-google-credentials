@@ -33,5 +33,5 @@ Before you can start using a service you have to authorize it with your Google a
 
     service = utils.get_service()
 
-To purge previously generated credentials open `http://your.domain.com/google-credentials/purge <http://your.domain.com/google-credentials/purge>`_.
+To purge previously generated credentials open `http://your.domain.com/google-credentials/purge <http://your.domain.com/google-credentials/purge>`_ in your browser.
 
