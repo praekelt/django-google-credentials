@@ -7,5 +7,7 @@ class Credentials(models.Model):
         max_length=128
     )
     credentials = CredentialsField(
-        editable=False
+        editable=False,
+        blank=True,
+        null=True,
     )
