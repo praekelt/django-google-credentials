@@ -1,7 +1,7 @@
 Django Google Credentials
 =========================
 
-Stores Google OAuth credentials in DJango ORM for easy API service access.
+Stores Google OAuth credentials in Django ORM for easy API service access.
 
 Installation:
 -------------
@@ -13,7 +13,7 @@ Installation:
     
     url(r'^google-credentials/', include('google_credentials.urls')),
 
-#. Create your project on the `Google API Console <https://code.google.com/apis/console>`_, specifying the redirect URL as `http://your.domain.com/google-credentials/callback` (or however you setup your ``urls.py`` as described above).
+#. Create your project on the `Google API Console <https://code.google.com/apis/console>`_, specifying the redirect URL as ``http://your.domain.com/google-credentials/callback`` (or however you setup your ``urls.py`` as described above).
 
 #. Add the following settings to your project's ``settings.py`` file populated with values as retrieved from Google in the previous step, i.e.::
    
