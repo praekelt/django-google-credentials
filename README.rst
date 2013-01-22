@@ -27,9 +27,9 @@ Installation:
 Usage
 -----
     
-Before you can start using a service you have to authorize it with your Google account. To do this open `http://your.domain.com/google-credentials/callback <http://your.domain.com/google-credentials/authorize>`_ in your browser. 
+Before you can start using a service you have to authorize it with your Google account. To do this open `http://your.domain.com/google-credentials/authorize <http://your.domain.com/google-credentials/authorize>`_ in your browser. 
 
-Once authorized you can retrive a service for further querying like so::
+Once authorized you can retrieve a service for further querying like so::
 
     from google_credentials import utils
 
